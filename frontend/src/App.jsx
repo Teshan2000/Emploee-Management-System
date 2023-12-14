@@ -1,33 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Stack from 'react-bootstrap/Stack';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Container>
+        <Row>
+          <Col>1 of 1</Col>
+          <Col>1 of 1</Col>
+        </Row>
+        <Row>
+          <Col sm={8}>sm=8</Col>
+          <Col sm={4}>sm=4</Col>
+        </Row>
+      </Container>
+      <Container fluid="md">
+      <Row>
+        <Col>1 of 1</Col>
+        <Col>1 of 1</Col>
+        <Col>1 of 1</Col>
+      </Row>
+      <Row>
+        <Col sm>sm=true</Col>
+        <Col sm>sm=true</Col>
+        <Col sm>sm=true</Col>
+      </Row>
+      <Stack gap={3}>
+        <div className="p-2">First item</div>
+        <div className="p-2">Second item</div>
+        <div className="p-2">Third item</div>
+      </Stack>
+      <Stack direction="horizontal" gap={3}>
+        <div className="p-2">First item</div>
+        <div className="p-2">Second item</div>
+        <div className="p-2">Third item</div>
+      </Stack>
+      <Stack direction="horizontal" gap={3}>
+        <div className="p-2">First item</div>
+        <div className="p-2 ms-auto">Second item</div>
+        <div className="p-2">Third item</div>
+      </Stack>
+    </Container>
     </>
   )
 }
