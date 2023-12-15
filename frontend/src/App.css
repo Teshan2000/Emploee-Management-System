@@ -1,0 +1,22 @@
+:root {
+    font-family: Pacifico, cursive;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+}
+
+.row {
+    color: white;
+}
+
+.body {
+    font-family: Pacifico, cursive;
+    background-color:rgb(236, 213, 236);
+}
+
+
+
