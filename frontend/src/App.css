@@ -1,21 +1,8 @@
-:root {
-    font-family: Pacifico, cursive;
-    font-family: 'Oswald', sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-}
-
-.container {
-    display: flex;
-}
-
-.row {
-    color: white;
-}
-
 .body {
     font-family: Pacifico, cursive;
+    font-family: 'Oswald', sans-serif;
     background-color:rgb(236, 213, 236);
+    background-color: cadetblue;
 }
 
 .columnCard {
@@ -37,7 +24,7 @@
     grid-template-rows: 0.2fr 3fr;
     grid-template-areas: 
         'sidebar header header header'
-        'sidebar main main main';
+        'sidebar home home home';
     height: 95vh;
 }
 
@@ -55,9 +42,9 @@
 }
 
 .sidebar {
-    margin: 15px;
-    padding-left: 30px;
     grid-area: sidebar;
+    margin: 15px;
+    padding-left: 30px;    
     height: 100%;
     border-radius: 15px;
     background-color: white;
@@ -67,3 +54,15 @@
     -webkit-transition: all 0.5s;
 }
 
+.home {
+    grid-area: home;
+    margin: 15px;
+    padding-left: 30px;    
+    height: 100%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 6px 7px 5px rgba(0, 0, 0, 0.35);
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}

@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Stack from 'react-bootstrap/Stack';
 
-function Sidebar() {
+function Home() {
   return (
     <div>
         <Container className='sidebar m-3'>
@@ -20,12 +20,9 @@ function Sidebar() {
                 <div className="rowCard"><FontAwesomeIcon icon={faGear} className="px-2"/>Settings</div>                
                 <div className="rowCard"><hr/><FontAwesomeIcon icon={faArrowRightFromBracket} className="px-2"/>Logout</div>
             </Stack>
-        </Container>        
-    </div>    
+        </Container>  
+    </div>
   )
 }
 
-export default Sidebar
-
-
-
+export default Home
