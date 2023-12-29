@@ -6,11 +6,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className='grid-container'>
-      <Header/>
-      <Sidebar/>
-      <Home/>
-    </div>
+      <div className='grid-container'>
+        <Header/>
+        <Sidebar/>
+        <Home/>
+      </div> 
   )
 }
 
