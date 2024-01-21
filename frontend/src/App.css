@@ -13,7 +13,7 @@
 .rowCard {
     display: flexbox;
     flex-direction: row;
-    justify-content:center;
+    
     padding: 20px 0px 0px 0px;
     font-size: 18px;
 }
