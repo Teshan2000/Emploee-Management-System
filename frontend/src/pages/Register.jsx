@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
 function Register() {
-    const [name, setName] = useState('');
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
