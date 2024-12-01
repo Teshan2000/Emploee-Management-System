@@ -1,6 +1,6 @@
 # Employee Management System (MERN Stack)
 
-This **Employee Management System** is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It is designed to efficiently manage employee records, providing a seamless interface for administrators to perform CRUD (Create, Read, Update, Delete) operations. The application offers a responsive and user-friendly design, making it suitable for managing employee data in any organization.
+This **Employee Management System** is a full-stack web application built using the MERN stack **(MongoDB, Express.js, React.js, Node.js)**. It is designed to efficiently manage employee records, providing a seamless interface for administrators to perform CRUD (**Create, Read, Update, Delete**) operations. The application offers a responsive and user-friendly design, making it suitable for managing employee data in any organization.
 
 ## Features
 
@@ -12,16 +12,16 @@ This **Employee Management System** is a full-stack web application built using 
 
 ## Technologies Used
 
-- **Frontend**: React.js, CSS, Bootstrap (or any other styling library).
+- **Frontend**: React.js, CSS, Bootstrap.
 - **Backend**: Node.js, Express.js.
 - **Database**: MongoDB for storing employee data.
-- **State Management**: Redux or React Context API (if applicable).
+<!-- - **State Management**: Redux or React Context API. -->
 
 ## Getting Started
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/employee-management-system.git
+   git clone https://github.com/Teshan2000/Employee-Management-System.git
    ```
 
 2. **Navigate to the Project Directory:**
@@ -57,11 +57,11 @@ This **Employee Management System** is a full-stack web application built using 
 
 ## Example Screenshots
 
-Include screenshots of the interface showing employee management features.
-
 ## Contribution Guidelines
 
-Contributions are welcome! Feel free to open issues or submit pull requests to improve the system.
+- **Reporting Issues:** If you find a bug, please create an issue describing the problem and steps to reproduce it.
+- **Feature Requests:** Feel free to suggest new features by opening an issue.
+- **Submitting Pull Requests:** If you would like to make a change, fork the repository, make your changes, and submit a pull request. Be sure to provide a clear description of what the change does.
 
 ## License
 
